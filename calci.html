@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="textarea1">
+            <h1 id="mainheading">Calculator</h1>
+        </div>
+        <div class="innercalci">
+            <div class="textfield">
+                <input type="text" value="" id="emptytextarea" readonly> 
+
+            </div>
+            <div class="buttons">
+                <button class="btns" onclick="appendmysymbol('1')">1</button>      
+                <button class="btns" onclick="appendmysymbol('2')">2</button>         
+                <button class="btns" onclick="appendmysymbol('3')">3</button> 
+                <button class="btns opr" onclick="appendmysymbol('+')" >+</button>         
+        
+                <button class="btns" onclick="appendmysymbol('4')">4</button>         
+                <button class="btns" onclick="appendmysymbol('5')">5</button>         
+                <button class="btns" onclick="appendmysymbol('6')">6</button> 
+                <button class="btns opr" onclick="appendmysymbol('-')" >-</button>         
+        
+                <button class="btns" onclick="appendmysymbol('7')">7</button>         
+                <button class="btns" onclick="appendmysymbol('8')">8</button>         
+                <button class="btns" onclick="appendmysymbol('9')">9</button>  
+                <button class="btns opr" onclick="appendmysymbol('*')" >*</button>         
+ 
+                <button class="btns" onclick="clearscreen()">C</button>         
+      
+                <button class="btns" onclick="appendmysymbol('0')">0</button>
+                <button class="btns oprs" onclick="calculateexp('=')" >=</button>
+
+                <button class="btns opr" onclick="appendmysymbol('/')" >/</button>
+
+         
+         
+         
+
+
+            </div>
+        </div>
+        
+
+    </div>
+    <script src="callogic.js"></script>
+</body>
+</html>
